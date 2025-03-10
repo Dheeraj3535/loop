@@ -3,6 +3,7 @@ using namespace std;
  
 int main()
 {
+  //a program for checking marks of students
 
     int n;
     std::cout<<"Enter a number";
