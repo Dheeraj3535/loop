@@ -7,6 +7,7 @@ int main() {
     int n;
     cout<<"write a number";
     cin>>n;
+    // this program is for triangular star pattern
 
     for (int abc = 1; abc <= n; abc = abc + 1) {
         for (int space_count = n - abc; space_count >= 1; space_count--) {
