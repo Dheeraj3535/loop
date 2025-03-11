@@ -6,6 +6,10 @@ int main() {
     int pattern;
     std::cout<<"enter the patten type\n";
     cin>>pattern;
+    if(pattern<1||pattern>2){
+        std::cout<<"invalid\n";
+        continue;
+    }
         int n;
         std::cout<<" number of lines\n ";
     cin>>n;
@@ -27,8 +31,8 @@ int main() {
     }
    }
 
-    else if(pattern==2){ 
-        std::cout<<"you are interested in second pattern\n";
+    else {
+           std::cout<<"you are interested in second pattern\n";
     for (int abc = 1; abc <= n; abc = abc + 1) {
             for (int space_count = n - abc; space_count >= 1; space_count--) {
                 std::cout << ' ';
@@ -46,10 +50,8 @@ int main() {
          std::cout<<'\n';      
  }
 }
-else {
-        std::cout<<"invalid\n";
-    }
+}
     }
 
-    }
+    
     
